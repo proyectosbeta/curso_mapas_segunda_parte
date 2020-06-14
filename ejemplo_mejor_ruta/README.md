@@ -1,5 +1,3 @@
-# ejemplo_mejor_ruta
-
 ## Descripción
 En este ejemplo mostramos como tener la mejor ruta de dos puntos usando MapBox.
 En un cuadro te muestra la mejor ruta por:
