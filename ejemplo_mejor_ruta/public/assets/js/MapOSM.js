@@ -24,8 +24,8 @@ map.addControl(
 			countries: 'py',
 			mapboxgl: mapboxgl
 		}),
-		placeholderOrigin: 'Escriba una ruta de origen',
-		placeholderDestination: 'Escriba una ruta de destino'
+		placeholderOrigin: 'Escriba una ciudad de origen',
+		placeholderDestination: 'Escriba una ciudad de destino'
     }),
     'top-left'
 );
