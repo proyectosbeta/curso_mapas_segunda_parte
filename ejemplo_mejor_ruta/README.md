@@ -19,4 +19,5 @@ En un cuadro te muestra la mejor ruta por:
 * https://docs.mapbox.com/
 * https://docs.mapbox.com/mapbox-gl-js/api/
 * https://docs.mapbox.com/api/navigation/#directions
-* https://docs.mapbox.com/api/
+* https://github.com/mapbox/mapbox-gl-directions
+* https://github.com/mapbox/mapbox-gl-directions/blob/master/API.md
