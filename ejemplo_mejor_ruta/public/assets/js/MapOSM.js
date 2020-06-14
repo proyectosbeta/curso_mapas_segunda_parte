@@ -14,6 +14,7 @@ map = new mapboxgl.Map(
 map.addControl(
     new MapboxDirections(
 	{
+		unit: 'metric',
     	accessToken: mapboxgl.accessToken
     }),
     'top-left'
