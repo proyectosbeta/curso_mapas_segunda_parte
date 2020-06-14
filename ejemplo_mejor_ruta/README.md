@@ -8,6 +8,9 @@ En un cuadro te muestra la mejor ruta por:
 * Caminando
 * Ciclismo
 
+## Screenshots
+![Screenshot](sreenshots/EjemploRutaEntreDosPuntos.png)
+
 ## Link prueba
 * https://proyectosbeta.net/curso_mapas_segunda_parte/ejemplo_mejor_ruta/public/
 
