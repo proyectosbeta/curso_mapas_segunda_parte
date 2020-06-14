@@ -14,9 +14,9 @@ map = new mapboxgl.Map(
 map.addControl(
     new MapboxDirections(
 	{
+		accessToken: mapboxgl.accessToken,
 		unit: 'metric',
-		language: 'es',
-    	accessToken: mapboxgl.accessToken
+		language: 'es'
     }),
     'top-left'
 );
