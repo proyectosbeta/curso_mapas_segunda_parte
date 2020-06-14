@@ -1,0 +1,5 @@
+// Asuncion - Paraguay.
+var DEFAULT_LNG = -57.623807;
+var DEFAULT_LAT = -25.299114;
+
+var ACCESS_TOKEN_MAPBOX = 'pk.eyJ1Ijoiam9zZWdvODUiLCJhIjoiY2s4ZWpvMDQ4MDBvNjNkcGhiOW1kYWxsdiJ9.oOz93-ReFExzmxCk6Bo_hg';
