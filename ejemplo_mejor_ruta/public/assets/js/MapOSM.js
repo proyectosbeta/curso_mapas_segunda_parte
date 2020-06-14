@@ -16,7 +16,8 @@ map.addControl(
 	{
 		accessToken: mapboxgl.accessToken,
 		unit: 'metric',
-		language: 'es'
+		language: 'es',
+		alternatives: true
     }),
     'top-left'
 );
