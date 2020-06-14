@@ -10,14 +10,22 @@ map = new mapboxgl.Map(
 	zoom: 13,
 	attribution: '© Data <a href="https://openstreetmap.org/copyright/">OpenStreetMap</a> © Map <a href="https://mapbox.com/">Mapbox</a>'
 });
-    
+
 map.addControl(
     new MapboxDirections(
 	{
 		accessToken: mapboxgl.accessToken,
 		unit: 'metric',
 		language: 'es',
-		alternatives: true
+		alternatives: true,
+		congestion: true,
+		geocoder: new MapboxGeocoder({
+			accessToken: mapboxgl.accessToken,
+			countries: 'py',
+			mapboxgl: mapboxgl
+		}),
+		placeholderOrigin: 'Escriba una ruta de origen',
+		placeholderDestination: 'Escriba una ruta de destino'
     }),
     'top-left'
 );
