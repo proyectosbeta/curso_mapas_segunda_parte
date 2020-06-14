@@ -19,7 +19,8 @@ map.addControl(
 		language: 'es',
 		alternatives: true,
 		congestion: true,
-		geocoder: new MapboxGeocoder({
+		geocoder: new MapboxGeocoder(
+		{
 			accessToken: mapboxgl.accessToken,
 			countries: 'py',
 			mapboxgl: mapboxgl
