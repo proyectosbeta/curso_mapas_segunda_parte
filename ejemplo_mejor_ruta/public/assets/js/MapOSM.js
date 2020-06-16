@@ -7,7 +7,7 @@ map = new mapboxgl.Map(
 	container: 'map',
 	style: 'mapbox://styles/mapbox/streets-v11',
 	center: [DEFAULT_LNG, DEFAULT_LAT],
-	zoom: 13,
+	zoom: zoom,
 	attribution: '© Data <a href="https://openstreetmap.org/copyright/">OpenStreetMap</a> © Map <a href="https://mapbox.com/">Mapbox</a>'
 });
 
