@@ -13,7 +13,7 @@ En un cuadro te muestra la mejor ruta por:
 * https://proyectosbeta.net/curso_mapas_segunda_parte/ejemplo_mejor_ruta/public/
 
 ## Herramientas de desarrollo
-* Librería de mapas: MapBox https://www.mapbox.com/)
+* Librería de mapas: [MapBox](https://www.mapbox.com/)
 * Lenguajes de programación: HTML, CSS y JavaScript
 
 ## Documentaciones útiles
